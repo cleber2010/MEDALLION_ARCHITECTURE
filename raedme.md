@@ -3,25 +3,6 @@
 Este projeto implementa um **pipeline de engenharia de dados** completo usando Python, Pandas, Postgres e Docker.  
 Ele coleta dados crus (Bronze), normaliza e salva em formato eficiente (Silver), carrega em banco de dados e visualiza dados enriquecidos (Gold).
 
----
-
-## 📑 Estrutura do Projeto
-
-├── 01-bronze-raw/ # Dados crus (CSV/JSON)
-├── 02-silver-validated/ # Dados normalizados em Parquet
-├── 03-gold-enriched/ # SQL ou dados enriquecidos
-├── App.py # Carrega dados normalizados no Postgres
-├── db.py # Classe para gerenciar conexão com Postgres
-├── get_data.py # Consulta API ViaCEP para enriquecer dados
-├── normalize_data.py # Normaliza arquivos crus em Parquet
-├── data-view.ipynb # Visualização e análise (Gold)
-├── docker-compose.yml # Sobe container Postgres
-└── README.md
-
-markdown
-Copiar código
-
----
 
 ## 🏗️ Pipeline de Dados
 
