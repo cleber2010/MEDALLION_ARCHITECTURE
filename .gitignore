@@ -1,0 +1,16 @@
+# Dados crus e normalizados
+01-bronze-raw/*.csv
+01-bronze-raw/*.json
+02-silver-validated/*.parquet
+
+# Dados do banco
+pgdata/
+
+# Ambientes virtuais Python
+venv/
+.env
+
+# Arquivos temporários e cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
